@@ -1,0 +1,9 @@
+version: '3'
+services:
+  golang-learning:
+    build: .
+    image: golang-learning
+    container_name: golang-learning
+    tty: true
+    volumes:
+      - ./work:/go/src/work
